@@ -1,0 +1,25 @@
+{
+  "name": "print",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mapbox/node-pre-gyp": "^1.0.11",
+    "@mmomtchev/node-pre-gyp-github": "^2.0.6",
+    "@types/printer": "^0.4.5",
+    "cors": "^2.8.5",
+    "electron-pos-printer": "^1.3.7",
+    "express": "^4.18.2",
+    "grunt-nw-gyp": "^0.5.0",
+    "nan": "^2.18.0",
+    "node-gyp": "^10.0.1",
+    "node-thermal-printer": "^4.4.1",
+    "ping": "^0.4.4",
+    "socket.io": "^4.7.4"
+  }
+}
